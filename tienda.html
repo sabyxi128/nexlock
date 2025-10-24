@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda – Nexlock</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <nav aria-label="Principal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="tienda.html" class="activo" aria-current="page">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="politicas.html">Políticas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Tienda</h1>
+    <p>Mochilas smart: peso, bloqueo por app, GPS, alarma e impermeabilidad.</p>
+
+    <input id="buscador" type="search" placeholder="Buscar mochilas..." aria-label="Buscar productos" />
+
+    <section id="grid-productos" aria-live="polite"></section>
+
+    <hr />
+  </main>
+
+  <!-- FAB Carrito (botón redondo) -->
+  <button id="cart-fab" class="cart-fab" aria-label="Abrir carrito">🛒
+    <span id="cart-badge">0</span>
+  </button>
+
+  <!-- Drawer lateral del carrito -->
+  <aside id="cart-drawer" class="cart-drawer" aria-hidden="true" aria-label="Carrito">
+    <div class="drawer-header">
+      <strong>Tu carrito</strong>
+      <button id="cart-close" class="drawer-close">✕</button>
+    </div>
+
+    <div id="cart-list" class="cart-list"></div>
+
+    <div class="drawer-footer">
+      <div class="row"><span>Subtotal</span><strong id="cart-subtotal">—</strong></div>
+      <div class="row"><span>Total</span><strong id="cart-total">—</strong></div>
+      <button id="cart-whatsapp" class="btn-wapp">Pedir por WhatsApp</button>
+      <button id="cart-clear" class="btn-clear">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 — Nexlock • Mochilas inteligentes</p>
+  </footer>
+
+  <script src="tienda.js"></script>
+</body>
+</html>

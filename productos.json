@@ -1,0 +1,35 @@
+[
+
+  {
+    "id": "mx1",
+    "nombre": "Nexlock Urban 15.6” (peso + app)",
+    "precio": 399,
+    "promo": 349,
+    "stock": 12,
+    "img": "img/urban.jpg",
+    "categoria": "Urbana",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": "mx2",
+    "nombre": "Nexlock Pro 17” USB (GPS + alarma)",
+    "precio": 549,
+    "stock": 7,
+    "img": "img/pro.jpg",
+    "categoria": "Trabajo",
+    "width": 500,
+    "height": 400
+  },
+  {
+    "id": "mx3",
+    "nombre": "Nexlock Travel RFID (impermeable)",
+    "precio": 629,
+    "promo": 579,
+    "stock": 5,
+    "img": "img/travel.jpg",
+    "categoria": "Viaje",
+    "width": 350,
+    "height": 350
+  }
+]
