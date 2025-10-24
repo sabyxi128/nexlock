@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "50243371469";
+const WHATSAPP_NUMBER = "50230539097";
 const CURRENCY = new Intl.NumberFormat("es-GT", { style: "currency", currency: "GTQ" });
 
 const PRODUCTS = [
