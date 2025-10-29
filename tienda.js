@@ -2,9 +2,9 @@ const WHATSAPP_NUMBER = "50230539097";
 const CURRENCY = new Intl.NumberFormat("es-GT", { style: "currency", currency: "GTQ" });
 
 const PRODUCTS = [
-  { id: "mx1", nombre: "Nexlock Urban 15.6” (peso + app)", precio: 399, promo: 349, stock: 12, img: "img/urban.jpg", categoria: "Urbana" },
-  { id: "mx2", nombre: "Nexlock Pro 17” USB (GPS + alarma)", precio: 549, stock: 7, img: "img/pro.jpg", categoria: "Trabajo" },
-  { id: "mx3", nombre: "Nexlock Travel RFID (impermeable)", precio: 629, promo: 579, stock: 5, img: "img/travel.jpg", categoria: "Viaje" }
+  { id: "mx1", nombre: "Nexlock Aegis", precio: 399, promo: 349, stock: 12, img: "img/urban.jpg", categoria: "Urbana" },
+  { id: "mx2", nombre: "Nexlock Pulse", precio: 549, stock: 7, img: "img/pro.jpg", categoria: "Trabajo" },
+  { id: "mx3", nombre: "Nexlock Stride", precio: 629, promo: 579, stock: 5, img: "img/travel.jpg", categoria: "Viaje" }
 ];
 
 const CART_KEY = "nexlock_cart";
